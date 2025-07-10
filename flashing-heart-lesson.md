@@ -1,15 +1,11 @@
 # Flashing Heart lesson 
-## is broken brokenbroken broken
+
+## AI is stupid
+
+Don't fall for AI's nefarious actions.
 
 
-
-## broken. broken
-
-
-
-'se; jaw;oev hrweos hewar98nvy w3498e
-sdflkhjas;dlfjhb asd;lkf wehoi byerdilv rbgyn una
-brokenbrokenbrokenbroken
+## Introduction
 In this lesson you will:
 * Learn the basics of the Micro:bit
 * Create your first code in JavaScript 
