@@ -7,7 +7,6 @@ In this lesson you will:
 * Learn the basics of the Micro:bit
 * Create your first code in JavaScript 
 * Download to your micro:bit 
-* Respond to a notebook prompt about the lesson
 
 ## Show Happy Icon  
 
@@ -63,5 +62,3 @@ basic.forever(function()) {
 ## Download
 Click the ``|Download|``  button to download to the micro:bit.
 
-## Notebook Prompt
-What does ```basic.showIcon(IconsNames.Happy)``` do?

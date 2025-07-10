@@ -69,6 +69,13 @@ the buttons displayed on your screen. For future reference,
 you may also implement an event handler for simultaneous 
 presses of the A and B buttons by utilizing ```Button.AB```.
 
-## Notebook Prompt
-What is your favorite line of code to this point in the micro:bit 
-lessons?
+## Notebook Prompts
+What is an event in programming?  
+What does this code do?
+```typescript
+input.onButtonPressed(Button.A, function () {
+  basic.showIcon(IconNames.Happy)
+})
+```
+Add your own event below that shows a different icon:  
+How might this be useful in a real-world device?  
