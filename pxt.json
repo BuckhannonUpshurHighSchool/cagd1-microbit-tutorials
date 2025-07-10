@@ -9,7 +9,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "flashing-heart-lesson.md"
+        "l1-intro-to-microbit-javascript.md"
     ],
     "testFiles": [
         "test.ts"
