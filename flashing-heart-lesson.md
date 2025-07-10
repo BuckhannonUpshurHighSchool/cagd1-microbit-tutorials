@@ -12,7 +12,7 @@ Use the basic ``||basic: show icon||`` function to display the **HEART**
 icon. Type the code below, or drag a code snippet from the ``||basic||`` 
 Toolbox category.
 
-```
+```typescript
 basic.showIcon(IconNames.Heart)
 ```
 
@@ -21,7 +21,7 @@ basic.showIcon(IconNames.Heart)
 Use the ``||basic:clear screen||`` function followed by the ``||basic:pause||`` 
 function to turn off the light for **500** milliseconds (or half a second).
 
-``` 
+```typescript
 basic.showIcon(IconNames.Heart)
 basic.clearScreen()
 basic.pause(500)
@@ -32,7 +32,7 @@ Copy the code and paste the copy to the end of the existing code.
 Change the **Heart** to **SmallHeart** in the code block
 ``||basic:show icon||``.
 
-```
+```typescript
 basic.showIcon(IconNames.Heart)
 basic.clearScreen()
 basic.pause(500)
@@ -47,7 +47,7 @@ Now show the flashing hearts forever by grabbing a
 ``||basic:forever||`` block from the ``||basic||`` category 
 in the Toolbox.
 
-```
+```typescript
 basic.forever(function()) {
     basic.showIcon(IconNames.Heart)
     basic.clearScreen()
