@@ -9,7 +9,8 @@
     "files": [
         "main.ts",
         "README.md",
-        "l1-intro-to-microbit-javascript.md"
+        "l1-intro-to-microbit-javascript.md",
+        "l2-display-strings-and-icons.md"
     ],
     "testFiles": [
         "test.ts"

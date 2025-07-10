@@ -18,10 +18,6 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/cryloudjones/cagd1-microbit-tutorials** and click import
 
-## Customization Notes
-- The **Flashing Hearts** tutorial was essentially duplicated and a modification
-added to customize the tutorial for Coding, App, and Game Design 1 meeting WV 
-Standards and taking into consideration previous lessons in other coding platforms.
 
 #### Metadata (used for search, rendering)
 
