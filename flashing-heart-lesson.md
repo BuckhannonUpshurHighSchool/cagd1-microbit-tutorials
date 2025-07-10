@@ -1,7 +1,7 @@
-## ~ tutorial
+# Flashing Heart lesson 
+
 ## @preferredEditor javascript
 
-# Flashing Heart lesson 
 
 In this lesson you will:
 * Learn the basics of the Micro:bit
