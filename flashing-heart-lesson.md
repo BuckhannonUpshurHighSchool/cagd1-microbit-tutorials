@@ -1,8 +1,5 @@
 # Flashing Heart lesson 
 
-## @preferredEditor javascript
-
-
 In this lesson you will:
 * Learn the basics of the Micro:bit
 * Create your first code in JavaScript 
