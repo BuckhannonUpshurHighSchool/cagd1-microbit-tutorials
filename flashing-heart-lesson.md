@@ -1,5 +1,5 @@
 ## ~ tutorial
-## @preferredEditor JavaScript
+## @preferredEditor tsprj
 
 # Flashing Heart lesson 
 
