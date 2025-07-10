@@ -10,7 +10,7 @@ In this lesson you will:
 ## Show Happy Icon  
 
 Use the basic ``||basic: show icon||`` function to display the **HAPPY** 
-icon. Type the code below, or drag a code snippet from the ``||basic||`` 
+icon. Type the code below, or drag a code snippet from the ``||basic:Basic||`` 
 Toolbox category.
 
 ```typescript
@@ -19,7 +19,7 @@ basic.showIcon(IconNames.Happy)
 
 ## Clear Screen and Pause
 
-Use the ``||basic:clear screen||`` function followed by the ``||basic:pause||`` 
+Use the ``||basic:clear screen||`` function followed by the ``||basic:Basic||`` 
 function to turn off the light for **500** milliseconds (or half a second).
 
 ```typescript
@@ -45,8 +45,8 @@ basic.pause(500)
 ## Run Forever 
 
 Now show the flashing hearts forever by grabbing a 
-``||basic:forever||`` block from the ``||basic||`` category 
-in the Toolbox.
+``||basic:forever||`` block from the ``||basic:Basic||`` category 
+in the Toolbox. Then run your code in the Simulator.
 
 ```typescript
 basic.forever(function()) {
@@ -58,9 +58,8 @@ basic.forever(function()) {
     basic.pause(500)
 }
 ```
-
 ## Download
-Click the **Download**  button to download to the micro:bit.
+Click the ``|Download|``  button to download to the micro:bit.
 
 ## Notebook Prompt
 What does ```basic.showIcon(IconsNames.Happy)``` do?

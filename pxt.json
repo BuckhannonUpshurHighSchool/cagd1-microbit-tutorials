@@ -10,7 +10,8 @@
         "main.ts",
         "README.md",
         "l1-intro-to-microbit-javascript.md",
-        "l2-display-strings-and-icons.md"
+        "l2-display-strings-and-icons.md",
+        "l3-introduciton-to-event-handling.md"
     ],
     "testFiles": [
         "test.ts"

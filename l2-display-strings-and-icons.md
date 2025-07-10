@@ -13,7 +13,7 @@ one character or digit, it will scroll across the screen
 accordingly.
 
 ## Scroll text 
-Grab the ``||basic:show string||`` code block from the ``||basic||`` 
+Grab the ``||basic:show string||`` code block from the ``||basic:Basic||`` 
 category in the Toolbox, and change ```"Hello!"``` to ```"Coding 1"```.  
 **Note: ** Text is contained inside two double quotes.
 ```typescript
@@ -21,7 +21,7 @@ basic.showString("Coding 1")
 ```
 ## Clear Screen and Scroll Another Text 
 Grab the ``||basic:clear screen||`` and ``||basic:show string||`` 
-code blocks from the ``||basic||`` category in the Toolbox, and Change
+code blocks from the ``||basic:Basic||`` category in the Toolbox, and Change
 ```"Hello!"``` to ```"Room "```.
 ```typescript
 basic.showString("Coding 1")
@@ -37,8 +37,21 @@ basic.clearScreen()
 basic.showString("Room ")
 basic.showNumber(103)
 ```
+
+##Scroll Forever
+Grab the ``||basic:forever||`` loop from the the ``||basic:Basic||`` category 
+in the Toolbox and place your code inside the loop.
+```typescript
+basic.forever(function() {
+    basic.showString("Coding 1")
+    basic.clearScreen()
+    basic.showString("Room ")
+    basic.showNumber(103)
+})
+```
 ## Simulate
-Press play on the simulator.
+Press play on the simulator. Then press ``|Download|`` to download and test on 
+the micro:bit.
 
 ## Notebook Prompt
 
@@ -48,5 +61,6 @@ In JavaScript, how do you show a string message on the LED display?
 1. Create a New JavaScript Project .
 2. Scroll ```"My name is: "``` followed by your first name.
 3. Scroll ```"My age is: "``` follwed by your age as a number.
-4. Test in the simulator.
-5. Download to the micro:bit
+4. Run forever
+5. Test in the simulator.
+6. Download to the micro:bit
