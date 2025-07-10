@@ -1,5 +1,7 @@
 # Lesson 2 - Display Strings and IconsNames 
 
+If you need to see the sample code, press the hint button for each step.
+
 ## Overview
 In this lesson you will:
 * Complate a tutorial for scrolling strings and numbers 

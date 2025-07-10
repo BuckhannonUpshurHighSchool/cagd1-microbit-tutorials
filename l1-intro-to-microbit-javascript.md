@@ -1,5 +1,7 @@
 # Lesson 1 Introduction to micro:bit and JavaScript
 
+If you need to see the sample code, press the hint button for each step.
+
 ## Overview
 In this lesson you will:
 * Learn the basics of the Micro:bit
@@ -20,7 +22,7 @@ basic.showIcon(IconNames.Happy)
 ## Clear Screen and Pause
 
 Use the ``||basic:clear screen||`` function followed by the ``||basic:Basic||`` 
-function to turn off the light for **500** milliseconds (or half a second).
+function to turn off the light for ```500``` milliseconds (or half a second).
 
 ```typescript
 basic.showIcon(IconNames.Happy)
@@ -30,7 +32,7 @@ basic.pause(500)
 
 ## Show the Sad Icon
 Copy the code and paste the copy to the end of the existing code.
-Change the **Happy** to **Sad** in the code block
+Change the ```Happy``` to ```Sad``` in the code block
 ``||basic:show icon||``.
 
 ```typescript

@@ -1,5 +1,8 @@
 # Lesson 3 - Introduction to Event Handling
 
+If you need to see the sample code, press the hint button for each step.
+
+
 This lesson introduces:
 * Basic event handling of button presses
 * Display of directional arrows
