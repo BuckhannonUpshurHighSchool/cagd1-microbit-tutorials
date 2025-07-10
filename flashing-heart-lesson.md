@@ -1,3 +1,6 @@
+## ~ tutorial
+## @preferredEditor JavaScript
+
 # Flashing Heart lesson 
 
 In this lesson you will:
