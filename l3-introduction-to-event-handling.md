@@ -1,81 +1,72 @@
 # Lesson 3 - Introduction to Event Handling
 
-If you need to see the sample code, press the hint button for each step.
+## Overview 
+In this lesson, you'll: 
+* Learn how event handling works 
+* Respond to button presses
+* Show arros and a custom LED pattern  
+*Need help? Click the __Hint__ button on each step to see example code.*
 
-
-This lesson introduces:
-* Basic event handling of button presses
-* Display of directional arrows
-* Display a custom pattern on the LED 
-
-## Create Event Hanlder for Button A Pressed
-Grab the ``||input:on button pressed||`` code block from the 
-``||input:Input||`` category in the Toolbox. Leave ```Button.A``` as the 
-button pressed.
-```typescript
+## Step 1 - Handle Button A Press 
+From the ``||input:Input||``, drag a ``||input:button pressed||`` block.  
+Use the default: **Button A**.
+```typescript 
 input.onButtonPressed(Button.A, function(){
 
 })
 ```
-## Show the West Arrow 
-Grab the ``||basic:show arrow||`` code block from the 
-``||basic:Basic||`` category in the Toolbox. Change ``North`` to ``West``, 
-and place the code inside the ``onButtonPressed`` event handler.
-```typescript
+
+## Step 2 - Show a Left Arrow
+From the ``||basic:show arrow||`` category, drag a ``||basic:show arrow||``.  
+Change the arrow direction to `West` and place it **inside** 
+the Button A event handler.
+```typescript 
 input.onButtonPressed(Button.A, function(){
     basic.showArrow(ArrowNames.West)
 })
 ```
-## Create the Event Handler for Button B Pressed
-Grab the ``||basic:show arrow||`` code block from the ``||basic:Basic||`` 
-category in the Toolbox, and change ``Button.A`` to ``Button.B``.
+
+## Step 3 - Handle Button B Press 
+Add another ``||input:button pressed||`` block from ``||input:Input||``.  
+Change it to **Button B**.
 ```typescript 
 input.onButtonPressed(Button.B, function(){
-    
-}) 
+
+})
 ```
-## Information
-The LED on/off indicators should be placed in a grid like the one shown below. 
-A ```.``` indicates the led light in that position should be off; whereas, a 
-````#```` indicates the led light in that position should be on. The string 
-is enclosed in a pair of back tick marks ``` ` ```. The back tick is found above the 
-tilde ```~``` on the keyboard.
-```typescript
-. . . . .
-. . . . .
-. . # . . 
-. . . . .
-. . . . .
-```
-## Display a Custom LED pattern
-Grab the ``||basic:show leds||`` code block from the ``||basic:Basic||`` 
-category in the Toolbox and place the code inside the event handler 
-Button B pressed and change the pattern as shown in the code below: 
+
+## Step 4 - Understand LED Patterns 
+The ``||basic:show leds||`` block uses a **5x5 grid** where: 
+* `#` = LED ON 
+* `.` = LED OFF  
+Wrap the pattern in **backticks** if you're typing in JavaScript.
+
+## Step 5 - Show a Custom Pattern 
+From ``||basic:Basic||``, drag a ``||basic:show leds||`` block 
+into the **Button B** event handler.  
+Edit the grid to look like a **right arrow**.
 ```typescript 
-input.onButtonPressed(Button.B,function(){
+input.onButtonPressed(Button.B, function(){
     basic.showLeds(`
     . . # . .
     . . . # .
-    # # # # # 
+    # # # # #
     . . . # .
     . . # . .
     `)
 })
 ```
 
-## Simulate then Download 
-Please execute your code within the simulator by interacting with 
-the buttons displayed on your screen. For future reference, 
-you may also implement an event handler for simultaneous 
-presses of the A and B buttons by utilizing ```Button.AB```.
+## Step 6 - Test Your Code 
+Click the **simulator buttons** to test both Buttons A and B.  
+Tip: You can also add an event for **Button A+B** together using `Button.AB`.
 
-## Notebook Prompts
-What is an event in programming?  
-What does this code do?
-```typescript
-input.onButtonPressed(Button.A, function () {
-  basic.showIcon(IconNames.Happy)
-})
-```
-Add your own event below that shows a different icon:  
-How might this be useful in a real-world device?  
+## Step 6 - Notebook Prompts
+Answer the following in your notebook:
+1. What is an **event** in programming?
+2. What does this code do?  
+`input.onButtonPressed(Button.A, function() {
+    basic.showIcon(IconNames.Happy)
+})`
+3. Add your own event below that shows a **different icon**.
+4. How could event handling be useful in a **real-world device**?

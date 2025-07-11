@@ -1,68 +1,67 @@
-# Lesson 2 - Display Strings and IconsNames 
+# Lesson 2 - display Strings and Icon Names 
 
-If you need to see the sample code, press the hint button for each step.
+## Overview:
+In this lesson (based on the Name Badge tutorial), you will:
+* Learn how to scroll text and numbers on the micro:bit 
+* Respond to a few reflection questions in your notebook  
+*Need help? Click the __Hint__ button on each step*
 
-## Overview
-In this lesson you will:
-* Complete a tutorial for scrolling strings and numbers 
-* Respond to a notebook prompts about this lesson
+## Step 1 - How Scrolling Works 
+Letters or numbers that are longer than one character will 
+**scroll** across the screen automatically.
 
-## Information
-When displaying a single character or digit, there is no 
-scrolling involved. However, if the text or number exceeds 
-one character or digit, it will scroll across the screen 
-accordingly.
-
-## Start a name badge 
-Grab the ``||basic:show string||`` code block from the ``||basic:Basic||`` 
-category in the Toolbox, and change ```"Hello!"``` to ```"My name is: ```. 
-Then drag a second ``||basic.show string||`` code block below that and 
-change ```"Hello!"``` to your name.  
-**Note: ** Text is contained inside two double quotes.
-```typescript
+## Step 2 - Start Your Name Badge 
+From the ``||basic:Basic||`` category, drag a ``||basic:show string||`` block.  
+Change the text to: `"My name is: "`  
+Then drag another `show string` block and change it to 
+your **first name**.
+```typescript 
 basic.showString("My name is: ")
-basic.showString("<your first name goes here>")
+basic.showString("Mrs. Jones)
 ```
-## Clear Screen and Scroll Another Text 
-Grab the ``||basic:clear screen||`` and ``||basic:show string||`` 
-code blocks from the ``||basic:Basic||`` category in the Toolbox, and change
-```"Hello!"``` to ```My age is: ```.
-```typescript
+
+## Step 3 - Clear and Scroll More Text 
+Add a ``||basic:clear screen||`` and add another ``||basic:show string||``block and 
+change `"Hello!"` to `"My age is: "`. 
+```typescript 
 basic.showString("My name is: ")
-basic.showString("<your first name goes here>")
+basic.showString("Mrs. Jones")
 basic.clearScreen()
 basic.showString("My age is: ")
 ```
-## Scroll a Number 
-Grab the ``||basic:show number||`` and change ```0``` to your age.  
-**Note: ** Numbers are not contained inside double quotes.
-```typescript
+
+## Step 4 - Scroll a Number 
+From ``||basic:Basic||``, drag a ``||basic:show number||`` 
+block.  
+Change the number to your **age**.
+```typescript 
 basic.showString("My name is: ")
-basic.showString("<your first name goes here>")
+basic.showString("Mrs. Jones")
 basic.clearScreen()
 basic.showString("My age is: ")
-basic.showNumber(<your age goes here>)
+basic.showNumber(62)
 ```
 
-##Scroll Forever
-Grab the ``||basic:forever||`` loop from the the ``||basic:Basic||`` category 
-in the Toolbox and place your code inside the loop.
-```typescript
-basic.forever(function() {
+## Step 5 - Loop It Forever
+Drag a ``||basic:forever||`` block from ``||basic:Basic||``.  
+Put **all your code** inside it so yur badge loops nonstop.
+```typescript 
+basic.forever(function(){
     basic.showString("My name is: ")
-    basic.showString("<your first name goes here>")
+    basic.showString("Mrs. Jones")
     basic.clearScreen()
     basic.showString("My age is: ")
-    basic.showNumber(<your age goes here>)
+    basic.showNumber(62)
 })
 ```
-## Simulate
-Press play on the simulator. Then press ``|Download|`` to download and test on 
-the micro:bit.
 
-## Notebook Prompts
+## Step 6 - Test Your Badge 
+Press **Play** on the simulator to test your code.  
+Then click ``|Download|`` to try it on your micro:bit. 
 
-What are the two main views in MakeCode?  
-What does ```basic.showIcon(IconNames.Heart)``` do?  
-In JavaScript, how do you show a string message on the LED display?  
-Write your favorite line of code from this lesson:
+## Step 7 - Notebook Prompts
+Answer these questions in your notebook:
+1. What are the two main views in MakeCode?
+2. What does `basic.showIcon(IconNames.Heart)` do?
+3. How do you show a string in JavaScript on the LED display?
+4. What's your favorite line of code from this lesson?

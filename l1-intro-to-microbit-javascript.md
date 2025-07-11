@@ -1,64 +1,58 @@
-# Lesson 1 Introduction to micro:bit and JavaScript
-
-If you need to see the sample code, press the hint button for each step.
+# Lesson 1 - Introduction to micro:bit and JavaScript
 
 ## Overview
-In this lesson you will:
-* Learn the basics of the Micro:bit
-* Create your first code in JavaScript 
-* Download to your micro:bit 
+In this lesson (based on the Flashing Hearts tutorial) you'll:
+* Learn how the micro:bit works
+* Write your first JavaScript code 
+* Download and run it on the micro:bit  
+*Need help? Press the __Hint__ botton on each step*
 
-## Show Happy Icon  
-
-Use the basic ``||basic: show icon||`` function to display the **HAPPY** 
-icon. Type the code below, or drag a code snippet from the ``||basic:Basic||`` 
-Toolbox category.
-
-```typescript
-basic.showIcon(IconNames.Happy)
+## Step 1 - Show an Icon 
+Use `show icon` to display any icon you like.  
+Drag it from the ``||basic:Basic||`` category or type the code manually.
+```typescript 
+basic.showIcon(IconNames.Heart)
 ```
 
-## Clear Screen and Pause
-
-Use the ``||basic:clear screen||`` function followed by the ``||basic:Basic||`` 
-function to turn off the light for ```500``` milliseconds (or half a second).
-
-```typescript
-basic.showIcon(IconNames.Happy)
+# Step 2 - Clear Screen and Pause 
+After showing the icon, add `clear screen` and then 
+`pause` for **500 ms** to turn off the lights for half 
+a second.
+```typescript 
+basic.showIcon(IconNames.Heart)
 basic.clearScreen()
 basic.pause(500)
 ```
 
-## Show the Sad Icon
-Copy the code and paste the copy to the end of the existing code.
-Change the ```Happy``` to ```Sad``` in the code block
-``||basic:show icon||``.
-
-```typescript
-basic.showIcon(IconNames.Happy)
+## Step 3 - Show a Different Icon 
+Copy your first `show icon` line and past it below the puase.  
+Change it to a **different icon**. Copy the `clear screen` 
+and `pause` lines and paste after the new `show icon` line.
+```typescript 
+basic.showIcon(IconNames.Heart)
 basic.clearScreen()
 basic.pause(500)
-basic.showIcon(IconNames.Sad)
+basic.showIcon(IconNames.SmallHeart)
 basic.clearScreen()
 basic.pause(500)
 ```
 
-## Run Forever 
-
-Now show the flashing hearts forever by grabbing a 
-``||basic:forever||`` block from the ``||basic:Basic||`` category 
-in the Toolbox. Then run your code in the Simulator.
-
-```typescript
-basic.forever(function()) {
-    basic.showIcon(IconNames.Happy)
+## Step 4 - Run Forever
+Wrap your code in a ``||basic:forever||`` block 
+(from ``||basic:Basic||``) so it loops continuously.  
+Run your code in the **simulator** to test it.
+```typescript 
+basic.forever(forever() {
+    basic.showIcon(IconNames.Heart)
     basic.clearScreen()
     basic.pause(500)
-    basci.showIcon(IconNames.Sad)
+    basic.showIcon(IconNames.SmallHeart)
     basic.clearScreen()
     basic.pause(500)
-}
+})
 ```
-## Download
-Click the ``|Download|``  button to download to the micro:bit.
 
+## Step 5 - Download to micro:bit 
+Click the ``|Download|`` button and send your code to the 
+micro:bit.  
+Watch your icons flash in a loop.
