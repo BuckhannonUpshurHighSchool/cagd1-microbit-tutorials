@@ -7,18 +7,18 @@ You will:
 * Review how button events and conditionals work
 * Learn how to use variables and `if` statements in JavaScript 
 * Keep your graphed value between 0 and 25  
-*Need Help? Press the __Hint__ button for sample code.
+*Need Help? Press the __Hint__ button for sample code.*
 
 ## Step 1 - Declare a Variable 
 From the ``||variables:Variables||`` category, drag a ``||variables:let||`` 
-block to create a ariable.  
+block to create a variable.  
 Keep the name `item` for now.
 ```typescript 
 let item: number
 ```
 
 ## Step 2 - Initialize the Variable 
-Use the ``||variables:set||`` block from the ``||variables:Variables||`` 
+Use the ``||variables:equals||`` block from the ``||variables:Variables||`` 
 to set `item = 0`.  
 This makes sure it starts with a clean value.
 ```typescript 
@@ -37,8 +37,9 @@ led.plotBarGraph(item, 25)
 ```
 
 ## Step 4 - Increase the Value 
-Add a ``||input:Button A pressed||`` event from ``||input:Input||``.
-Inside it, use the `change item by 5` block from ``||variables:Variables||``.
+Add a ``||input:run code on button pressed||`` event from ``||input:Input||``.
+Inside it, use the ``||variables:change||`` block to change `item` by 5 
+from ``||variables:Variables||``. 
 ```typescript 
 input.onButtonPressed(Button.A, function(){
     item += 5
@@ -46,8 +47,8 @@ input.onButtonPressed(Button.A, function(){
 ```
 
 ## Step 5 - Decrease the Value 
-Add a `Button B pressed` event.
-Inside it, use `change item by -5` to decrease the value.
+Add a ``||input:run code on button pressed||`` event for **Button B**.
+Inside it, use ``||variables:change||`` `item` by -5 to decrease the value.
 ```typescript 
 input.onButtonPressed(Button.B, function(){
     item -= 5
@@ -55,7 +56,7 @@ input.onButtonPressed(Button.B, function(){
 ```
 
 ## Step 6 - Loop the Graphing
-Add a `forever` block from ``||basic:Basic||``.  
+Add a ``||basic:forever||`` block from ``||basic:Basic||``.  
 Move your `plot bar graph` block into this loop to keep it updating.
 ```typescript 
 let item: number
