@@ -62,16 +62,7 @@ basic.forever(function() {
 ```
 
 ## Step 7 - Comment the Wait Time Logic
-Inside the forever block, add a multi-line comment like this:  
-`/*  
-Set a random wait time  
-Display a message  
-Pause  
-Show an icon  
-Start the timer  
-*/`
-*See the __Hint__ for better formatting instructions.*
-
+Inside the forever block, add a multi-line comment as shown in the Hint.  
 ```typescript
 basic.forever(function() {
     /*
