@@ -13,7 +13,8 @@
         "l2-display-strings-and-icons.md",
         "l6-buttons-and-conditions.md",
         "l3-introduction-to-event-handling.md",
-        "l7-reaction-timer-app.md"
+        "l7-reaction-timer-app.md",
+        "l8-tilt-and-gesture-events.md"
     ],
     "testFiles": [
         "test.ts"
