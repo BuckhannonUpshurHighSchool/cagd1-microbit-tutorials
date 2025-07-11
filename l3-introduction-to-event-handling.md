@@ -4,7 +4,7 @@
 In this lesson, you'll: 
 * Learn how event handling works 
 * Respond to button presses
-* Show arros and a custom LED pattern  
+* Show arrows and a custom LED pattern  
 *Need help? Click the __Hint__ button on each step to see example code.*
 
 ## Step 1 - Handle Button A Press 
@@ -58,7 +58,8 @@ input.onButtonPressed(Button.B, function(){
 ```
 
 ## Step 6 - Test Your Code 
-Click the **simulator buttons** to test both Buttons A and B.  
+Press **Play** in the simulator. Click the **simulator buttons** to test both 
+Buttons A and B.  
 Tip: You can also add an event for **Button A+B** together using `Button.AB`.
 
 ## Step 6 - Notebook Prompts
