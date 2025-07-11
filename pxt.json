@@ -1,5 +1,5 @@
 {
-    "name": "cagd1-microbit-tutorials-prod",
+    "name": "cagd1-microbit-tutorials",
     "description": "",
     "dependencies": {
         "core": "*",
