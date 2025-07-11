@@ -60,6 +60,7 @@ basic.forever(function() {
 
 })
 ```
+
 ## Step 7 - Comment the Wait Time Logic
 Inside the forever block, add a multi-line comment like this:  
 `/*  
@@ -69,6 +70,19 @@ Pause
 Show an icon  
 Start the timer  
 */`
+*See the __Hint__ for better formatting instructions.*
+
+```typescript
+basic.forever(function() {
+    /*
+    Set a random wait time
+    Display a message
+    Pause
+    Show an icon
+    Start the timer
+    */
+})
+```
 
 ## Step 8 - Set the Random Wait Time
 Inside the forever block, set `waitTime = randint(2, 5) * 1000`.
@@ -96,7 +110,7 @@ Show string "Get ready..."
 Pause `waitTime`  
 Clear screen  
 Show an icon (any you like)  
-Set `falseStart = false ` 
+Set `falseStart = false`   
 Set `startTime = ` running time (ms) (found in ``||input:Input...||``)  
 
 ```typescript 
@@ -151,7 +165,7 @@ input.onButtonPressed(Button.A, function(){
 
 ## Step 14 - Add Inner If to Update Best Time
 Still inside the outer if:  
-Add another ``||logic:if`` block that checks:  
+Add another ``||logic:if||`` block that checks:  
 if bestTime == 0 or reactionTime < bestTime  
 Inside it, set `bestTime = reactionTime`
 ```typescript 
