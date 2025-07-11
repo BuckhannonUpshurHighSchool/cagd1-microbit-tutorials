@@ -21,7 +21,7 @@ basic.showString("Mrs. Jones)
 ```
 
 ## Step 3 - Clear and Scroll More Text 
-Add a ``||basic:clear screen||`` and add another ``||basic:show string||``block and 
+Add a ``||basic:clear screen||`` and add another ``||basic:show string||`` block and 
 change `"Hello!"` to `"My age is: "`. 
 ```typescript 
 basic.showString("My name is: ")
